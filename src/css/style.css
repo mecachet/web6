@@ -4,6 +4,10 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+header{
+  background-color: #0A22F4;
+  height: 300px;
+}
 header h1{
 	color: white;
 	padding-top: 4%;
