@@ -4,13 +4,16 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
-header{
-  background-color: #0A22F4;
-  height: 300px;
+header h1{
+	color: white;
+	padding-top: 4%;
+  padding-left: 8%;
 }
 .container {
   max-width: 1200px;
   margin: 10px auto;
+  position: relative;
+  top: -250px;
  }
  .box {
   max-width: 395px;
@@ -18,11 +21,12 @@ header{
   vertical-align: top;
 }
 .box img {
-  width: 300px;
-  height: 300px;
+  width: 360px;
+  height: 320px;
   object-fit: cover;
   display: flex;  
   border-radius: 20px;
+  margin-top: 60px;
 }
 .box {
   position: relative;
@@ -30,35 +34,30 @@ header{
 .box p {
   position: absolute;
   width: 60%;
-  background-color: aliceblue;
-  background-color: rgb(255, 255, 255);
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: white;
+  background-color: white;
+  background-color: white;
   padding: 5px;
   bottom: 20px;
-  right: 20px;
+  right: 50px;
 }
-
-.box h2 {
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  background-color: rgb(255, 255, 255);
-  background-color: rgba(255, 255, 255, 0.5);
-}
-
 .box:first-child {
-  max-width: unset;
-  width: 500px;
+  float: left;
 }
 
 .box:last-child {
-  max-width: unset;
-  width: 600px;
+  float: right;
 }
 
 .box:nth-child(2n) {
-  max-width: unset;
-  width: 50%;
-  position: relative;
-  top: -10px;
+  margin: 0 auto;
+  margin-bottom: -320px;
+}
+.tiny-text {
+  position: absolute;
+  font-size: 18px;
+  font-weight: bold;
+  padding-left: 1200px;
+  margin-top: 12%;
+  text-align: right;
 }
