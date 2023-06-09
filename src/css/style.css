@@ -12,7 +12,7 @@ header h1{
 .container {
   max-width: 1200px;
   margin: 10px auto;
-  position: relative;
+  position: relative;F
   top: -250px;
  }
  .box {
@@ -32,7 +32,7 @@ header h1{
   position: relative;
 }
 .box p {
-  position: absolute;
+  position: absolute;`
   width: 60%;
   background-color: white;
   background-color: white;
