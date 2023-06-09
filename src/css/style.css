@@ -58,3 +58,11 @@ header h1{
   margin: 0 auto;
   margin-bottom: -320px;
 }
+.tiny-text {
+  position: absolute;
+  font-size: 18px;
+  font-weight: bold;
+  padding-left: 1200px;
+  margin-top: 12%;
+  text-align: right;
+}
