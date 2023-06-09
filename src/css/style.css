@@ -8,6 +8,11 @@ header{
   background-color: #0A22F4;
   height: 300px;
 }
+header h1{
+	color: white;
+	padding-top: 4%;
+  padding-left: 8%;
+}
 .container {
   max-width: 1200px;
   margin: 10px auto;
